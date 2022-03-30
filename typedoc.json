@@ -1,0 +1,22 @@
+{
+  "entryPoints": [
+    "./src/ejercicio-clase/Interfaces.ts",
+    "./src/ejercicio-clase/NumericSearchableCollection.ts",
+    "./src/ejercicio-clase/SearchableCollection.ts",
+    "./src/ejercicio-clase/StringSearchableCollection.ts",
+    "./src/ejercicio-1/BaseDeDatos.ts",
+    "./src/ejercicio-1/Combat.ts",
+    "./src/ejercicio-1/DC.ts",
+    "./src/ejercicio-1/Fighter.ts",
+    "./src/ejercicio-1/Marvel.ts",
+    "./src/ejercicio-1/Pokemon.ts",
+    "./src/ejercicio-1/Shadowhunters.ts",
+    "./src/ejercicio-2/BasicStreamableCollection.ts",
+    "./src/ejercicio-2/Documentales.ts",
+    "./src/ejercicio-2/Interfaces.ts",
+    "./src/ejercicio-2/Peliculas.ts",
+    "./src/ejercicio-2/Series.ts",
+    "./src/ejercicio-3/Cifrado.ts"
+  ],
+  "out": "./docs"
+}
