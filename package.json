@@ -1,39 +1,32 @@
 {
-  "name": "practica_6",
+  "name": "multiverse-game",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "start1": "tsc-watch --onSuccess \"node dist/ejercicio-1/index.js\"",
-    "start2": "tsc-watch --onSuccess \"node dist/ejercicio-2/index.js\"",
-    "start3": "tsc-watch --onSuccess \"node dist/ejercicio-3/index.js\"",
-    "startclase": "tsc-watch --onSuccess \"node dist/ejercicio-clase/index.js\"",
-    "startclase2": "tsc-watch --onSuccess \"node dist/ejercicio-30-marzo-clase/index.js\"",
-    "doc": "typedoc",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls && rm -rf .nyc_output",
-    "coverage-offline": "nyc npm test",
+    "coverage": "nyc npm test && nyc report --reporter=lcov",
+    "coverage-offline": "nyc npm tests",
+    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "doc": "typedoc; touch ./docs/.nojekyll",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/chai": "^4.3.0",
-    "@types/mocha": "^9.1.0",
-    "@typescript-eslint/eslint-plugin": "^5.16.0",
-    "@typescript-eslint/parser": "^5.16.0",
-    "chai": "^4.3.6",
-    "coveralls": "^3.1.1",
-    "eslint": "^8.11.0",
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "chai": "^4.3.0",
+    "eslint": "^7.21.0",
     "eslint-config-google": "^0.14.0",
-    "mocha": "^9.2.2",
+    "mocha": "^8.3.0",
     "nyc": "^15.1.0",
-    "ts-node": "^10.7.0",
-    "tsc-watch": "^4.6.2"
-  },
-  "dependencies": {
-    "scanf": "^1.1.2",
-    "typedoc": "^0.22.13"
+    "ts-node": "^9.1.1",
+    "tsc-watch": "^4.2.9",
+    "typedoc": "^0.20.28",
+    "typescript": "^4.2.3"
   }
 }
