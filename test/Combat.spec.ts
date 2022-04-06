@@ -1,10 +1,10 @@
 import 'mocha';
 import {expect} from 'chai';
-import {Marvel} from '../../src/ejercicio-1/Marvel';
-import {DC} from '../../src/ejercicio-1/DC';
-import {Combat} from '../../src/ejercicio-1/Combat';
-import {Fighter} from '../../src/ejercicio-1/Fighter';
-import {Shadowhunters} from '../../src/ejercicio-1/Shadowhunters';
+import {Marvel} from '../src/Marvel';
+import {DC} from '../src/DC';
+import {Combat} from '../src/Combat';
+import {Fighter} from '../src/Fighter';
+import {Shadowhunters} from '../src/Shadowhunters';
 
 const BlackWidow = new Marvel('Black Widow', 60, 1.70, 59.42, 'No necesito un arma. Yo soy un arma.', 70, 60, false, true, 'pistola');
 const HarleyQuinn = new DC(50, 'Harley Quinn', 1.68, 63.5, 'La muerte es un estado mental, cariño.', 70, 80, false, true, 'bate');

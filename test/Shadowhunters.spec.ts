@@ -1,6 +1,6 @@
 import 'mocha';
 import {expect} from 'chai';
-import {Shadowhunters} from '../../src/ejercicio-1/Shadowhunters';
+import {Shadowhunters} from '../src/Shadowhunters';
 
 const Jace = new Shadowhunters(50, 'Jace Herondale', 1.80, 82,
     '¿Quieres llevar esto afuera y probar esas habilidades de lucha?', 80, 70, 'fortis');

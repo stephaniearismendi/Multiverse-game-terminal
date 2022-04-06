@@ -1,6 +1,6 @@
 import 'mocha';
 import {expect} from 'chai';
-import {DC} from '../../src/ejercicio-1/DC';
+import {DC} from '../src/DC';
 
 const HarleyQuinn = new DC(50, 'Harley Quinn', 1.68, 63.5, 'La muerte es un estado mental, cariño.', 70, 80, false, true, 'bate');
 const Flash = new DC(80, 'The Flash', 1.88, 75, 'Si crees en lo imposible, te conviertes en lo imposible.', 60, 90, true, false);

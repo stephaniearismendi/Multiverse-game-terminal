@@ -1,6 +1,7 @@
 import 'mocha';
 import {expect} from 'chai';
-import {Pokemon} from '../../src/ejercicio-1/Pokemon';
+import {Pokemon} from '../src/Pokemon';
+
 const Pikachu = new Pokemon('electrico', ['impactrueno', 'electrico'],
     70, 'Pikachu', 0.4, 6, '¡Pika, pika!', 40, 70);
 const PikachuDamaged = new Pokemon('electrico', ['fuerza', 'normal'],

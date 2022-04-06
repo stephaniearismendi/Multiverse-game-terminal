@@ -1,6 +1,6 @@
 import 'mocha';
 import {expect} from 'chai';
-import {Marvel} from '../../src/ejercicio-1/Marvel';
+import {Marvel} from '../src/Marvel';
 
 const BlackWidow = new Marvel('Black Widow', 60, 1.70, 59.42, 'No necesito un arma. Yo soy un arma.', 70, 60, false, true, 'pistola');
 const ScarletWitch = new Marvel('Scarlet Witch', 90, 1.65, 63, 'Me arrebataste todo.', 70, 50, true, false);
